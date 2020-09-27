@@ -1,6 +1,6 @@
 # yate
 
-Yet anothe template engine for JavaScript.
+Yet another template engine for JavaScript.
 
 ## Install
 
