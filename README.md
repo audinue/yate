@@ -13,7 +13,7 @@ Yet anothe template engine for JavaScript.
 ```js
 const render = yate(`
 <ul>
-for (var i = 0; i < count; i++)
+for (let i = 0; i < count; i++)
   <li>Item {i + 1}</li>
 end
 </ul>
