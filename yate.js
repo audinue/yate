@@ -12,7 +12,7 @@ const yate = template => new Function(
                     line.replace(/([\\'])/g, '\\$1')
                       .replace(/{([^}]+)}/g, (_, expression) => `',(${
                         expression.replace(/\\([\\'])/g, '$1')
-                      }),'`)
+                      })??'','`)
                   }\\n')`
       ).join('\n')}}return output.join('')`
   )
