@@ -5,19 +5,19 @@ Yet anothe template engine for JavaScript.
 ## Install
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/audinue/yate@1.0/yate.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/audinue/yate@1.1/yate.js"></script>
 ```
 
 ## Usage
 
 ```js
-const render = yate(`
+const render = yate`
 <ul>
 for (let i = 0; i < count; i++)
   <li>Item {i + 1}</li>
 end
 </ul>
-`)
+`
 console.log(render({ count: 3 }))
 /*
 <ul>
