@@ -8,6 +8,10 @@ Yet another template engine for JavaScript.
 <script src="https://cdn.jsdelivr.net/gh/audinue/yate@1.1/yate.js"></script>
 ```
 
+## Note
+
+By default values are escaped. To write unescaped value use `{=expression}`.
+
 ## Usage
 
 ```js
