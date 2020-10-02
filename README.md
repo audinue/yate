@@ -5,7 +5,7 @@ Yet another template engine for JavaScript.
 ## Install
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/audinue/yate@1.1/yate.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/audinue/yate@1.2/yate.js"></script>
 ```
 
 ## Note
